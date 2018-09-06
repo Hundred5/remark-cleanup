@@ -1,0 +1,32 @@
+{
+  "name": "@hundred5/remark-cleanup",
+  "version": "1.0.0",
+  "description": "Remark plugin for cleaning up and fixing the AST",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "repository": "https://github.com/Hundred5/remark-cleanup",
+  "author": "Michal Miskernik <michal@hundred5.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0",
+    "prettier": "^1.14.2",
+    "regenerator-runtime": "^0.12.1",
+    "unist-builder": "^1.0.3"
+  },
+  "dependencies": {
+    "object-assign": "^4.1.1",
+    "unist-util-remove": "^1.0.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "prepublish": "babel src -d lib"
+  },
+  "files": [
+    "src/index.js",
+    "lib/index.js"
+  ]
+}
