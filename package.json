@@ -1,6 +1,6 @@
 {
   "name": "@hundred5/remark-cleanup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remark plugin for cleaning up and fixing the AST",
   "main": "lib/index.js",
   "repository": "https://github.com/Hundred5/remark-cleanup",
