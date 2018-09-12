@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Remark plugin for cleaning up and fixing the AST",
   "main": "lib/index.js",
-  "module": "src/index.js",
   "repository": "https://github.com/Hundred5/remark-cleanup",
   "author": "Michal Miskernik <michal@hundred5.com>",
   "license": "MIT",
@@ -26,7 +25,6 @@
     "prepublish": "babel src -d lib"
   },
   "files": [
-    "src/index.js",
     "lib/index.js"
   ]
 }
